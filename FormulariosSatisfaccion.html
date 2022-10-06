@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="formulario">
+  <meta name="keywords" content="">
+  </head>
+  <body style="background-color:#7b989a">
+</body>
+<hr>
+  <style>
+  table, th, td {
+    border:0 solid Blue;
+  }
+  </style>
+
+  <body>
+
+  <table align="center">
+    <tr>
+      <th><p align ="left" >Presentamos a continuacion la encuesta de servicios
+        <br>esta informacion nos sirve para mejorar la calidad de nuestros servicios
+        <br>tambien nos sirve para detectar posibles errores en el sistema
+        <br>favor de contestar con total sinceridad</p> </th>
+
+        <th align="center">
+                    <label for="buscador">Buscar</label>
+                    <input type="search" class="icono" placeholder="    Search"  name="buscador"><br>
+                      </th>
+
+
+
+    <tr>
+
+      <td> </style>
+</head>
+<body>
+  <br><br><br><br><br><br>
+
+  <form action="/action_page.php" method="get" id="form1">
+    <label for="nombre">Nombre Cliente:</label>     <input type="text" name="nombre"><br>
+  <br>  E-mail: <input type="email" name="usermail"><br>
+  <br>
+  Que posibilidades hay de que nos recomiende con algun amigo o cnocido (Alta) (Media) (Baja):
+<input type="text" name="quantity" min="Baja" max="Alta">
+<br>
+<br>Elija fecha de pr&oacute;xima visita:
+<input type="date" name="f">
+
+  </form>
+
+</body>
+</html></td>
+      <td>
+        ¿Que calificacion nos brindaria a nosotros?
+        <select>
+<optgroup label="lista de opciones ">
+<option value="op11">Excelente</option>
+<option value="op12">Bueno</option>
+</optgroup>
+<option value="op20">Regular</option>
+<option value="op21">Malo</option>
+</optgroup>
+</select>
+</td>
+</table>
+<br><br><br><br>
+<div align=center >  <fieldset   style="width:75%" >
+                <legend>Datos Personales</legend>
+                <table>
+                  <tr>
+                    <th WIDTH=300 >  <p align="left">Cual es su sexo </th> <th WIDTH=300 ><p align="left">  Elija su color favorito </th>
+                    <th WIDTH=500 > Su CURP </th>
+                  </fieldset>
+                  <TR> <td> <radiogroup >
+                        <label for="promociones"></label>
+                        <br>
+                        <input type="radio" id="sexo" name="sexo" value="hombre" autofocus checked> Mujer<br>
+                        <input type="radio" id="sexo" name="sexo" value="mujer"> Hombre<br>
+                        <td> <label>
+                            <input type="color" name="color" value="#6791d2" >
+                            </label>
+
+                    </radiogroup>
+                    <td >
+                      <input style="width:90%"  type="text"  name="CURP" id="CURP" size="13" maxlength="13" pattern="[A-Z]{4}[0-9]{6}[A-Z]{7}[0-9]{1}">
+                    </table>
+                   </fieldset>
+                      <br><br>
+
+
+                        <label for="subject" align="center"><br>
+      <textarea id="subject" name="subject" placeholder="Comentarios Finales" style="width:80%"></textarea><br>
+                              </div>
+                              <div align="right">
+                                                              <input type="submit">
+                                                            </div>
+
+</hr>
+  </html>
